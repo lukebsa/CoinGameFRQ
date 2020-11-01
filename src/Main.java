@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
+
+        // This class is implemented for testing purposes.
+
         System.out.println("Game with 3 starting coins and 4 rounds.");
 	    CoinGame game1 = new CoinGame(3, 4);
 	    game1.playGame();
