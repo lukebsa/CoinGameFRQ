@@ -21,6 +21,7 @@ public class CoinGame {
         else {
             result = 1;
         }
+        // return 1; // Used for testing purposes to force outcomes
         return result;
     }
 
@@ -58,6 +59,7 @@ public class CoinGame {
                 player2Coins += 2;
             }
         }
+        // player1Coins += 2; // Used for testing purposes to force outcomes
         if (player1Coins > player2Coins) {
             System.out.println("player 1 wins");
         }

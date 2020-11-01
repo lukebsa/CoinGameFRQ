@@ -20,5 +20,10 @@ public class Main {
         CoinGame game4 = new CoinGame(4, 2);
         game4.playGame();
 
+        System.out.println("Game with 3 starting coins and 1 rounds.");
+        CoinGame game5 = new CoinGame(3, 1);
+        game5.playGame();
+
+
     }
 }
